@@ -265,8 +265,11 @@ function inputKey(e) {
   } else if(e.shiftKey && e.code === 'Digit8'){ // multiplication (*)
     currentButton = document.querySelector(`button[data-key=KeyStar]`);
   } else {
+    console.log("e.code = " + e.code);
     currentButton = document.querySelector(`button[data-key="${e.code}"]`);
   }
+  console.log('test');
+  console.log(currentButton);
   if(!currentButton) return;
   currentButton.click();  
   
