@@ -1,0 +1,47 @@
+<!DOCTYOPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="calculator">
+      <div class="row"> <!-- row 1: display -->
+        <div class="calc-display">0</div>
+      </div>
+      <div class="row"> <!-- row 2 -->
+        <button data-key="KeyC" type="button" class="operator" id="ac">AC</button>
+        <button data-key="KeyN" type="button" class="operator" id="negative">+/-</button>
+        <button data-key="KeyPercent" type="button" class="operator" id="modulo">%</button>
+        <button data-key="/" type="button" class="operator" id="division">/</button>
+          <button data-key="Backspace" type="button" class ="del" id="backspace">&larr;</button>
+      </div>
+      <div class="row"> <!-- row 3 -->
+        <button data-key="Digit7" type="button" class="number">7</button>
+        <button data-key="Digit8" type="button" class="number">8</button>
+        <button data-key="Digit9" type="button" class="number">9</button>
+        <button data-key="KeyStar" type="button" class="operator" id="multiplication">*</button>
+      </div>
+      <div class="row"> <!-- row 4 -->
+        <button data-key="Digit4" type="button" class="number">4</button>
+        <button data-key="Digit5" type="button" class="number">5</button>
+        <button data-key="Digit6" type="button" class="number">6</button>
+        <button data-key="Minus" type="button" class="operator" id="subtraction">-</button>
+      </div>
+      <div class="row"> <!-- row 5 -->
+        <button data-key="Digit1" type="button" class="number">1</button>
+        <button data-key="Digit2" type="button" class="number">2</button>
+        <button data-key="Digit3" type="button" class="number">3</button>
+        <button data-key="KeyPlus" type="button" class="operator" id="addition">+</button>
+      </div>
+      <div class="row"> <!-- row 6 -->
+        <button data-key="Digit0" type="button" class="number" id="zero">0</button>
+        <button data-key="Period" type="button" class="decimal" id="decimal">.</button>
+        <button data-key="Equal" type="button" class="operator equal" id="equal-sign">=</button>
+      </div>     
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
