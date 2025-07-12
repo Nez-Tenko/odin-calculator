@@ -6,7 +6,7 @@ body, html {
 }
 
 .calculator {
-  width:500px;
+  width:520px;
   border:solid;
   gap: 32px;
   display:flex; 
