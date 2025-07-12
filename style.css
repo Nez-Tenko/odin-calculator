@@ -29,7 +29,8 @@ body, html {
   text-align:end;
   justify-content:end;
   flex:1;
-  max-width:496px;
+  //max-width:496px;
+  max-width: 516px;
   height:80px;
   margin:2px;
   font-size:64px;
